@@ -1,0 +1,91 @@
+body {
+	font-family: Georgia;
+	line-height: 2;
+}
+
+li {
+	margin-right: 10px;
+}
+
+a {
+	color: white;
+}
+
+#topdiv {
+	background-color: teal;
+	color: white;
+	font-family: Arial;	
+	display: flex;
+	justify-content: space-between;
+	padding:20px;
+	margin: -8px;
+}
+
+#seconddiv {
+	font-size: 14px;
+	text-align: center;
+	display: flex;
+	line-height: 19px;
+	background-color: grey;
+	padding: 50px 25px 0px 20px;
+	border: 60px solid orange;
+	margin: -8px;
+}
+
+#thirddiv {
+	font-size: 12px;
+	display:flex;
+	justify-content: space-between;
+	background-color: #F0FFFF;
+	margin: -8px;
+	padding: 50px 25px 0px 20px;
+}
+
+#lastdiv {
+	font-size: 10px;
+	display: flex;
+	background-color: #FFEBCD;
+	margin: -8px;
+	padding: 50px 25px 0px 20px;
+}
+
+#nav {
+	display: flex;
+	list-style-type: none;
+}
+
+#image {
+	display: flex;
+	justify-content: flex-end;
+	padding: 0px 25px 10px 10px;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+	body {
+		background-color: black;
+		color: black;
+		font-size: 10px;
+	}
+
+	div#topdiv {
+		display: block;
+	}
+
+	div#seconddiv {
+		display: block;
+	}
+
+	div#lastdiv {
+		display: block;
+	}
+
+	ul#nav {
+		display: block;
+		font-weight: 700;
+	}
+
+	div#image {
+		display: none;
+	}
+}
